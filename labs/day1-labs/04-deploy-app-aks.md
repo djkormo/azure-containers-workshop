@@ -22,7 +22,7 @@
 
 2. In Azure Cloud Shell edit `heroes-web-api.yaml` using `vi`
     ```
-    cd ~/azure-containers-workshop/labs/helper-files
+    cd ~/blackbelt-aks-hackfest/labs/helper-files
 
     vi heroes-web-api.yaml
     ```
@@ -59,7 +59,7 @@ kubectl create secret docker-registry acr-secret --docker-server=$ACR_SERVER --d
 
 * Use the kubectl CLI to deploy each app
     ```
-    cd ~/azure-containers-workshop/labs/helper-files
+    cd ~/blackbelt-aks-hackfest/labs/helper-files
 
     kubectl apply -f heroes-db.yaml
     ```
@@ -98,7 +98,7 @@ kubectl create secret docker-registry acr-secret --docker-server=$ACR_SERVER --d
 * Use the kubectl CLI to deploy each app
 
     ```
-    cd ~/azure-containers-workshop/labs/helper-files
+    cd ~/blackbelt-aks-hackfest/labs/helper-files
 
     kubectl apply -f heroes-web-api.yaml
     ```
