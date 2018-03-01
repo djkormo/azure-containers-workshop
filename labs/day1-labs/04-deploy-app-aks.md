@@ -4,7 +4,7 @@
 
 1. In Azure Cloud Shell edit `heroes-db.yaml` using `vi`
     ```
-    cd ~/azure-containers-workshop/labs/helper-files
+    cd ~/blackbelt-aks-hackfest/labs/helper-files
 
     vi heroes-db.yaml
     ```

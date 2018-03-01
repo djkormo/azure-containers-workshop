@@ -40,7 +40,7 @@
 
 9. Get the Kubernetes config files for your new AKS cluster
     ```
-    az aks get-credentials -n $CLUSTER_NAME -g $NAME
+    az aks get-credentials -n $CLUSTER_NAME -g rg
     ```
 
 10. Verify you have API access to your new AKS cluster
