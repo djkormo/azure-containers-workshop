@@ -75,6 +75,7 @@ This lab has pre-requisites. Some have been completed in prior labs.
           acrServer: REPLACE
           acrUsername: REPLACE
           acrPassword: "REPLACE"
+        vcsSidecar: "deis/git-sidecar:v0.11.0"
         ```
 
     * Edit the values from above to match your Github account (example below)
@@ -111,6 +112,7 @@ This lab has pre-requisites. Some have been completed in prior labs.
           acrServer: youracr.azurecr.io
           acrUsername: youracr
           acrPassword: "lGsP/UA1Gnbogus9Ps5fAL6CeWsGfPCg"
+        vcsSidecar: "deis/git-sidecar:v0.11.0"
         ```
 
 2. Create your brigade project
