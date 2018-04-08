@@ -91,7 +91,7 @@ docker network create --subnet=172.18.0.0/16 my-network
 1. Stop mongod
 
     ```
-    systemctl stop mongod
+    sudo systemctl stop mongod
     ```
 
 1. Run mongo container
