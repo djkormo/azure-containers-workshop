@@ -55,10 +55,9 @@ aks-nodepool1-42552728-1   Ready     agent     4h        v1.7.7
 2. Scale out AKS cluster to accomodate the demand
 ```bash
 # set these values to match yours (the cluster and the RG are the same name)
-RESOURCE_GROUP_NAME=
-AKS_CLUSTER_NAME=
+CLUSTER_NAME=
 
-az aks scale -g $RESOURCE_GROUP_NAME -n $AKS_CLUSTER_NAME --node-count 4
+az aks scale -g rg -n $CLUSTER_NAME --node-count 4
 ```
 
 > Note this may take some time. Good time to get some coffee. 
